@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('Awarding_data.csv')
+df = pd.read_csv('awarding_data_sample.csv')
 
 # Remove columns from the DataFrame
 columns_to_remove = ['object_classes_funding_this_award', 'program_activities_funding_this_award', 'treasury_accounts_funding_this_award']  # Specify the columns to remove
